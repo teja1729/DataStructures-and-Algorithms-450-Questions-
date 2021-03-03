@@ -17,3 +17,4 @@ if __name__=='__main__':
     array=[0,2,1,2,0]
     array = solution(array)
     for i in array:print(i,end=" ")
+    #output: 0 0 1 2 2
