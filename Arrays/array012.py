@@ -1,4 +1,4 @@
-#Question:Given an array of size N containing only 0s, 1s, and 2s; sort the array with using sorting algo.
+#Question:Given an array of size N containing only 0s, 1s, and 2s; sort the array without using any sorting algo.
 #Algo: Time Complexity O(n)
 #the idea is to count the no of 0's,1's,2's
 #and recreate array using there counts
