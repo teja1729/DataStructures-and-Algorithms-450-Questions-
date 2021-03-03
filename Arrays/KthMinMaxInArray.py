@@ -13,3 +13,6 @@ if __name__== '__main__':
     kthmin,kthmax = kthMinMaxInArray(arr,k)
     print(f'{k}th max is {kthmax}')
     print(f'{k}th min is {kthmin}')
+#output:
+#2th max is 231
+#2th min is 2
