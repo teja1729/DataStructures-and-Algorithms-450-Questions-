@@ -16,7 +16,7 @@
 def solution(arr1,arr2,n,m):
         i=n-1
         j=0
-        while i>=0 and j<m:O(max(n,m))
+        while i>=0 and j<m:#O(max(n,m))
             if arr1[i]>=arr2[j]:
                 arr1[i],arr2[j]=arr2[j],arr1[i]
                 i-=1
