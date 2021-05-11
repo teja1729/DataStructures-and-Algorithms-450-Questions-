@@ -17,7 +17,7 @@ def merge(intervals):
 			c=result.pop()
 			result.append([c[0],max(interval[1],c[1])])#append([a,max(b,d)])
 		else:
-			 result.append(interval)
+			result.append(interval)
 	return result
 if __name__ == '__main__':
 	intervals = [[1,3],[2,6],[8,10],[15,18]]
