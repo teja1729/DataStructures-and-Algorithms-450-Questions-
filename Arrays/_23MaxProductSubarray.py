@@ -18,7 +18,7 @@ def maxProduct(arr, n):
              
         # maxVal and minVal stores the
         # product of subarray ending at arr[i].
-            maxVal = max(arr[i], maxVal * arr[i])# if now max value already -ve here it will become +ve if arr[i]<0
+            maxVal = max(arr[i], maxVal * arr[i])# if now max value already -ve here it will become +ve if arr[i]<0,else it will be updated
             minVal = min(arr[i], minVal * arr[i])
  
         # Max Product of array.
